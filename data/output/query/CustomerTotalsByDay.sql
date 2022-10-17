@@ -1,0 +1,1 @@
+SELECT CustomerID,Date,sum(TransactionAmount) as Total from CleanedTransactions group by CustomerID,Date

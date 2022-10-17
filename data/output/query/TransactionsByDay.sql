@@ -1,0 +1,1 @@
+SELECT Date,count(TransactionID) as CountOfTransactions from CleanedTransactions group by Date
